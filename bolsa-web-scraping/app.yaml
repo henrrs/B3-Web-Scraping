@@ -1,0 +1,11 @@
+runtime: python39
+
+#[START env]
+env_variables:
+  BOLSA_BASE_URL: 'http://bvmf.bmfbovespa.com.br/InstDados/SerHist/'
+  FILE_NAME: 'COTAHIST_D'
+  FILE_FORMAT: '.ZIP'
+  TIME_ZONE: 'America/Sao_Paulo'
+  BUCKET_NAME: 'b3-web-scrapping-bucket'
+
+#[END env]

@@ -1,0 +1,8 @@
+cron:
+- description: "daily historical recovery from b3"
+  url: /
+  schedule: every mon, tue, wed, thu, fri 22:00
+  timezone: America/Sao_Paulo
+  retry_parameters:
+    min_backoff_seconds: 2.5
+    max_doublings: 5
